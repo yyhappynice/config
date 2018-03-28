@@ -1,0 +1,19 @@
+{
+  "color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+  "create_window_at_startup": false,
+  "draw_white_space": "all",
+  "font_face": "Monaco",
+  "font_size": 18,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "ignored_packages":
+  [
+  ],
+  "match_brackets_braces": true,
+  "save_on_focus_lost": true,
+  "show_encoding": true,
+  "tab_size": 2,
+  "theme": "Boxy Monokai.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}

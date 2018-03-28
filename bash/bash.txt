@@ -1,0 +1,31 @@
+alias do='cd /library/webserver/documents/'
+#堡垒机
+alias mach='ssh yuyi@relay00.idcvdian.com'
+alias key='oathtool --totp -b 5guk4plmpnhjt75z'
+#open sublime
+alias sb="'/applications/sublime text.app/contents/sharedsupport/bin/subl'"
+#open vscode
+alias vs='/applications/visual\ studio\ code.app/contents/resources/app/bin/code'
+# chrome
+alias chrome="/applications/google\ chrome.app/contents/macos/google\ chrome"
+#open blog
+alias blog="'/library/webserver/documents/blog/source/_posts'"
+#npm run dev
+alias dev='yarn run dev'
+alias build='npm run build'
+
+#登里服务器
+alias server='ssh root@101.132.111.173'
+#登录机器
+alias lg='expect /library/webserver/documents/login.exp'
+#mongodb
+alias mongo='cd /usr/local/mongodb/bin'
+alias mongocon='sudo ./mongod'
+#mysql
+alias mysql_self='mysql -h localhost -u root -p'
+path=$path:/usr/local/mysql/bin
+#nginx
+alias nginx_path='cd /usr/local/etc/nginx/'
+
+export mono_home=/library/frameworks/mono.framework/versions/5.0.1
+export path=$path:$mono_home/bin
