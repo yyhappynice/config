@@ -1,7 +1,7 @@
 alias do='cd /library/webserver/documents/'
 #堡垒机
 alias mach='ssh yuyi@relay00.idcvdian.com'
-alias key='oathtool --totp -b 5guk4plmpnhjt75z'
+alias key='oathtool --totp -b *****'
 #open sublime
 alias sb="'/applications/sublime text.app/contents/sharedsupport/bin/subl'"
 #open vscode
